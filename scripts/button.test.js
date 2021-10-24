@@ -1,4 +1,4 @@
-test('Check addTodo able add todo to todoList', () => {  
+test('Text appears on button press', () => {  
     document.body.innerHTML = `
     <button id="actionButton"> Click me! </button>
     <p id="textMessage"></p>
