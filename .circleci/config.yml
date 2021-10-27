@@ -28,4 +28,4 @@ workflows:
 
       - build:
         requires:
-          = node/test
+          - node/test
