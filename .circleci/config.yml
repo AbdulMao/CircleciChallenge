@@ -17,7 +17,7 @@ jobs:
           arguments: |
             --acl public-read \
             --cache-control "max-age=86400"
-          from: bucket
+          from: ./
           to: 's3://circleci-challenge'
 
 # Invoke jobs via workflows
